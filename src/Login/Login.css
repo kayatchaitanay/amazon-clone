@@ -1,0 +1,69 @@
+.login {
+    background-color:  white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginContainer{
+    border: 3px  solid;
+    border-color: #e0dddd #d1cccc #a8a6a6;
+    width: 300px;
+    background-color: rgb(250, 250, 250);
+    height: fit-content;
+    /* filter: drop-shadow(0px 0px 10px); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.loginContainer  > h1{
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.loginContainer  > form > h4{
+    margin: 5px 0px;
+    font-weight: 500;
+}
+.loginContainer  > form > input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 14px;
+}
+
+.loginSignInButton{
+    background: linear-gradient(to bottom left,#ffbd16, #eec661);
+    border: 1px solid;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.loginContainer  > p{
+    font-size: 13px;
+}
+
+
+.loginResgistraionButton{
+    background: linear-gradient(to top,#f0f0f0, #e9e6e6);
+    border: 1px solid;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-color: #bbbbbb #cacaca #a0a0a0;
+}
